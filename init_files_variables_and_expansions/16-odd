@@ -1,3 +1,2 @@
 #!/bin/bash
 ls | grep -E [0-9]\{5,\}
-
