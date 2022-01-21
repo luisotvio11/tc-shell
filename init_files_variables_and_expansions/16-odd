@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -- | cut -f1
+ls  | grep -E [13579]
