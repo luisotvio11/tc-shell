@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | grep -E [0-9]\{5,\}
+paste - - | cut -f1
