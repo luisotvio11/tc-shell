@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -v ‘[0-9]palavra’ /etc/ssh/sshd_config
