@@ -1,2 +1,2 @@
 #!/bin/bash
-cat | tail -n | cut-f1
+cat | tail -n +2 | cut-f1 | sort | cut -d " " -f1 | head -n11 | rev
